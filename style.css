@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 34px;
+    display: flex;
+    width: 100vw;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+}
+ul{
+    list-style: none;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    width: 500px;
+    /* border: 2px solid black; */
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: pink;
+}
+li{
+    padding: 14px 0px;
+    margin: 10px;
+    /* border: 2px solid black; */
+}
+@media screen and (max-width:580px){
+
+    nav,ul{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+#rishabh{
+    width: 100vw;
+    background-image: url(./images/banner-bg.webp);
+    height: 80vh;
+    background-size: cover;
+}
+#rishabh h2{
+    margin: 20px auto;
+    color: black;
+}
+
+#bharat{
+    border: 2px solid black;
+    margin: 50px;
+    padding: 50px;
+    /* padding-left: 900px; */
+    font-size: 25px;
+}
+#bharat h2{
+   padding: 20px 90px;
+}
+
+#bharat2{
+    /* border: 2px solid black; */
+    padding: 20px;
+   
+}
+#bharat3{
+    padding-left: 1000px;
+}
+#bharat3 img{
+    
+    border-radius: 50%;
+    /* border: 2px solid black; */
+}
+#bharat2 p{
+    font-size: 35px;
+    padding-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+section{
+    width: 100vw;
+    margin: 50px auto;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+}
+figure{
+    width: 700px;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin: 15px;
+    transition: 200ms;
+    /* box-shadow: 2px 2px 10px red; */
+}
+figure img{
+    height: 600px;
+    width: 95%;
+    padding: 8px;
+}
+button{
+    font-size: 30px;
+    padding: 4px 12px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: 1px solid #CCC;
+    transition: 500ms;
+}
+button:hover{
+    background-color:darkblue;
+    color: white;
+}
+figure:hover{
+    transform: scale(1.02);
+}
+figcaption h2{
+    font-size: 40px;
+}
+figcaption p{
+    font-size: 30px;
+}
+figcaption h2,p,button{
+    padding: 10px;
+    margin:10px;
+}
+
+
+
+
+
+
+
+#last{
+    width: 100vw;
+    margin: 50px auto;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    
+}
+#last figure{
+    background-color: aliceblue;
+    width: 700px;
+    height: 400px;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin: 15px;
+    transition: 200ms;
+    padding: 10px 10px;
+    /* box-shadow: 2px 2px 10px red; */
+}
+button:hover{
+    background-color:darkblue;
+    color: white;
+}
+.arrow:hover{
+    transform: scaleX(200%);
+}
